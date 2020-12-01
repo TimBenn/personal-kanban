@@ -129,7 +129,7 @@ const App = (props) => {
             </Typography>
           </div>
           <div>
-            <Tooltip title="Import/Export" aria-label="Import/Export">
+            {/* <Tooltip title="Import/Export" aria-label="Import/Export">
               <IconButton
                 aria-controls="export-import-menu"
                 aria-haspopup="true"
@@ -140,7 +140,7 @@ const App = (props) => {
               >
                 <ImportExport style={{ color: grey[50] }} />
               </IconButton>
-            </Tooltip>
+            </Tooltip> */}
             <Menu
               anchorEl={exportImportMenuEl}
               getContentAnchorEl={null}
